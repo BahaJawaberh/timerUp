@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+
+    width: 100vw;
+    height: 100vh;
+    background-image:url("imgs/pook.jpg") ;
+    display:grid ;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+
+.card{
+    width: 50%;
+    height: 40%;
+    background-color: rgba(226, 177, 118, 0.546);
+    boxShadow: 0 0 10px #e0e0e0;
+    display:grid ;
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.counter{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    font-size: 60px;
+    color: #fff;
+
+}
+
+
